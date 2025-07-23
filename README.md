@@ -32,5 +32,5 @@ python digimon.py -l
 - Optional metadata (name + description)
 
 ## Issues?
--This is my first repo, so expect some of them
--The naming with Digimon is a bit weird, so some of them could have a different name as Name and another one as Description. This is because all of changes between versions.
+- This is my first repo, so expect some of them
+- The naming with Digimon is a bit weird, so some of them could have a different name as Name and another one as Description. This is because all of changes between versions.
