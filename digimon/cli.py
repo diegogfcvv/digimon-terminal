@@ -3,11 +3,11 @@ import os
 import random
 import argparse
 import json
-from pathlib import Path
+from . import DATA_DIR
 
 class DigimonViewer:
-    def __init__(self, data_dir="digimon_data"):
-        self.data_dir = Path(data_dir)
+    def __init__(self, data_dir=DATA_DIR):
+        self.data_dir = data_dir
         self.digimon_list = self._load_digimon_list()
 
     def _load_digimon_list(self):

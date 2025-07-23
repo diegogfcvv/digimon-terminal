@@ -8,21 +8,27 @@ Display Digimon sprites directly in your terminal! Quite based in [pokemon-color
 - Python 3.6+ (check with `python3 --version`)
 - Terminal with UTF-8 support
 
+# Install directly from GitHub
 ```bash
+pip install git+https://github.com/diegogfcvv/digimon-terminal.git
+```
+
+# Or clone and install locally
 git clone https://github.com/diegogfcvv/digimon-terminal.git
 cd digimon-terminal
-```
+pip install .
+
 
 ## Usage
 ```bash
 # Show random Digimon with metadata
-python digimon.py -r -m
+digimon -r -m
 
 # Show specific Digimon without description
-python digimon.py -n Agumon
+digimon -n Agumon
 
 # List all available Digimon
-python digimon.py -l
+digimon -l
 ```
 
 ## Features
