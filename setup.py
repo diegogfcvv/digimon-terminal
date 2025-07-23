@@ -13,10 +13,10 @@ setup(
     name='digimon-terminal',
     version='1.0',
     packages=find_packages(),
-    package_data={
-        'digimon': find_data_files('digimon', 'data'),
+package_data={
+        'digimon': ['data/digimon_data/*/*'],
     },
-    include_package_data=True,  # This is crucial
+    include_package_data=True,
     entry_points={
         'console_scripts': [
             'digimon=digimon.cli:main',
