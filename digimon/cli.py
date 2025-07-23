@@ -18,12 +18,10 @@ class DigimonViewer:
 
     def show_digimon(self, name, show_metadata=True):
         try:
-            # Display sprite
             sprite_path = self.data_dir / name / "sprite.txt"
             with open(sprite_path, 'r', encoding='utf-8') as f:
                 print(f.read())
-
-            # Display metadata if requested
+                
             if show_metadata:
                 data_path = self.data_dir / name / "data.json"
                 with open(data_path, 'r', encoding='utf-8') as f:
