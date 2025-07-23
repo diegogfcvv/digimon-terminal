@@ -1,5 +1,6 @@
 # Digimon Terminal Viewer
 
+## -n command is not working right now
 Display Digimon sprites directly in your terminal!
 
 Quite based in [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) and with the sprites of [Tortoiseshel](https://withthewill.net/threads/full-color-digimon-dot-sprites.25843/).
