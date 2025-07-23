@@ -1,6 +1,10 @@
 # Digimon Terminal Viewer
 
-Display Digimon sprites directly in your terminal! Quite based in [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) and with the sprites of [Tortoiseshel](https://withthewill.net/threads/full-color-digimon-dot-sprites.25843/).
+# (It's not working right now, I'm trying to fix it)
+
+Display Digimon sprites directly in your terminal!
+
+Quite based in [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) and with the sprites of [Tortoiseshel](https://withthewill.net/threads/full-color-digimon-dot-sprites.25843/).
 
 ## Installation
 
@@ -8,16 +12,13 @@ Display Digimon sprites directly in your terminal! Quite based in [pokemon-color
 - Python 3.6+ (check with `python3 --version`)
 - Terminal with UTF-8 support
 
-# Install directly from GitHub
 ```bash
-pip install git+https://github.com/diegogfcvv/digimon-terminal.git
-```
+# First install pipx if you don't have it
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
 
-# Or clone and install locally
-git clone https://github.com/diegogfcvv/digimon-terminal.git
-cd digimon-terminal
-pip install .
-
+# Then install digimon-terminal
+pipx install git+https://github.com/diegogfcvv/digimon-terminal.git
 
 ## Usage
 ```bash
