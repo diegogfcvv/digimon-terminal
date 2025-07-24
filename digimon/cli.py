@@ -64,7 +64,20 @@ def main():
         return
 
     if args.name:
-        viewer.show_digimon(args.name.lower(), args.metadata)
+        input_name = args.name.lower()
+        matched_name = next(
+            (d for d in viewer.digimon_list if d.lower() == input_name),
+            None
+        )
+        
+        if not matched_name:
+            print(f"Digimon '{args.name}' not found. Available Digimon:")
+            for d in sorted(viewer.digimon_list):
+                print(f"- {d}")
+            return
+            
+        viewer.show_digimon(matched_name, args.metadata)
+        
     elif args.random:
         random_digi = viewer.get_random_digimon()
         viewer.show_digimon(random_digi, args.metadata)
