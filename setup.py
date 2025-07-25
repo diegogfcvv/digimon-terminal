@@ -11,7 +11,7 @@ def find_data_files(package_dir, data_dir):
 
 setup(
     name='digimon-terminal',
-    version='1.0',
+    version='1.1',
     packages=find_packages(),
 package_data={
         'digimon': ['data/digimon_data/*/*'],

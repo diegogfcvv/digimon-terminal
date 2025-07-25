@@ -47,3 +47,11 @@ digimon -l
 ## Issues?
 - This is my first repo, so expect some bugs
 - The naming with Digimon is a bit weird because all of changes between versions, so some of them could have a different name as Name and another one as Description. Also, this could make search a bit finicky.
+
+## Changelog
+
+### v1.0
+- Initial release
+
+### v1.1
+- Fixed transparency in sprites
