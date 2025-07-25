@@ -34,7 +34,10 @@ digimon -r -m
 # Show specific Digimon without description (Agumon, in this case)
 digimon -n agumon
 
-# List all available Digimon (there are quite a lot, expect much scrolling)
+# Show specific Digimon with description (Gabumon, in this case)
+digimon -n gabumon -m
+
+# List all available Digimon (there are quite a lot, expect much scrolling, useful for (un)localised names)
 digimon -l
 ```
 
