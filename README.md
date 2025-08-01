@@ -11,13 +11,12 @@ Quite based in [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-co
 - Terminal with UTF-8 support (your terminal is probably supported if it's modern enough, you shouldn't have to worry about this)
 - [pipx](https://pipx.pypa.io/stable/installation/) (will install Python packages in isolated environments, make sure to follow the "ensurepath" command too!)
 
-```
 Restart your terminal after this!
 
 # Then install digimon-terminal
 ```bash
 pipx install git+https://github.com/diegogfcvv/digimon-terminal.git
-```
+
 
 ## Usage
 ```bash
