@@ -16,7 +16,7 @@ Restart your terminal after this!
 # Then install digimon-terminal
 ```bash
 pipx install git+https://github.com/diegogfcvv/digimon-terminal.git
-
+```
 
 ## Usage
 ```bash
